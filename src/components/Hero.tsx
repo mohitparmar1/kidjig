@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Hero() {
   return (
     <div className="w-full h-screen  bg-main-bg bg-hero bg-cover bg-center flex items-center  relative -z-30">
@@ -29,7 +30,7 @@ function Hero() {
           </button>
         </div>
 
-        <span className="my-16 flex items-center justify-center w-full mx-24">
+        <span className="my-16 flex items-center justify-center">
           From Ideas to Software Solutions 💡✨ From Ideas to Software Solutions
           🌟✨ From Ideas to
         </span>

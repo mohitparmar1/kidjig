@@ -1,5 +1,7 @@
 import { useState } from "react";
-import MobileNav from "./MobileNav";
+import Logo from "../assets/Logo.png";
+import Ellipse1 from "../assets/Ellipse 1.png";
+import Ellipse2 from "../assets/Ellipse 2.png";
 
 function Navbar() {
   const [toggle, setToggle] = useState(false);
@@ -11,7 +13,7 @@ function Navbar() {
   return (
     <div className="w-full relative flex justify-between md:px-8 lg:px-44 items-center py-3 lg:justify-around bg-nav-bg bg-opacity-20 overflow-hidden lg:gap-36">
       <div className="flex items-center">
-        <img src="/src/assets/Logo.png" alt="logo" className="h-10" />
+        <img src={Logo} alt="logo" className="h-10" />
       </div>
 
       <div className="flex-grow flex justify-center md:justify-center lg:justify-between items-center">
@@ -27,14 +29,10 @@ function Navbar() {
       <button className="hidden md:flex lg:flex border-2 border-[#6881FF] text-white rounded-xl py-3 px-10 z-30">
         Book a Call
       </button>
-      <img
-        className="absolute -top-0 z-10"
-        src="/src/assets/Ellipse 1.png"
-        alt="ellipse 1"
-      />
+      <img className="absolute -top-0 z-10" src={Ellipse1} alt="ellipse 1" />
       <img
         className="absolute top-0 right-6 -z-0"
-        src="/src/assets/Ellipse 2.png"
+        src={Ellipse2}
         alt="ellipse 2"
       />
 
