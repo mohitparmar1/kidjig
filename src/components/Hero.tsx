@@ -2,8 +2,8 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="w-full h-screen bg-blue-50 rounded-b-xl bg-hero bg-cover bg-center flex items-center justify-center relative z-30">
-      <section className="flex flex-col py-10 px-6 md:py-20 md:px-20 lg:py-40 lg:px-44 font-display text-white gap-5 relative z-20">
+    <div className="w-full h-screen  bg-main-bg bg-hero bg-cover bg-center flex items-center  relative -z-30">
+      <section className="flex flex-col py-10 px-6 md:py-20 md:px-20 lg:py-40 lg:px-44 font-display text-white gap-5 relative -z-10">
         <div className="flex flex-col text-3xl md:text-4xl lg:text-5xl gap-3">
           <span>Empowering Lives Through</span>
           <p>
@@ -29,7 +29,7 @@ function Hero() {
           </button>
         </div>
 
-        <span className="my-10 flex items-center justify-center text-sm md:text-base lg:text-lg text-main-text opacity-80">
+        <span className="my-16 flex items-center justify-center w-full mx-24">
           From Ideas to Software Solutions 💡✨ From Ideas to Software Solutions
           🌟✨ From Ideas to
         </span>

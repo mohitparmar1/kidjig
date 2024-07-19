@@ -15,6 +15,8 @@ export default {
 
     backgroundImage: {
       hero: "url('/src/assets/hero.png')",
+      "bg-text ":
+        "linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%)",
     },
   },
   plugins: [],
